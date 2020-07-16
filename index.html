@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=DM Mono' rel='stylesheet'>
+        <title>Michael Kagan</title>
+    </head>
+    <body style="font-family: 'DM Mono'">
+        <div>
+            <div class="leftside">
+                <img src="pics_and_pdfs/headshot.png" alt="Michael Kagan Headshot" class="headshot">
+                <h1 id="hone">Michael Kagan</h1>
+                <h2 style="font-size:23px;">Binghamton University School of Management - Finance Major
+                <br>PwC Scholars Program VP of Fundraising, 2020 - 2021
+                <br>Mathematical Sciences Minor</h2>
+            </div>
+            <div class="rightside">
+                <div class="btns">
+                    <button id="about" class="btn">about</button>
+                    <button id="resume" class="btn">resume</button>
+                    <button id="coursework" class="btn">coursework</button>
+                    <button id="projects" class="btn">projects</button>
+                    <script>
+                        document.querySelector('#about').onclick = function() {
+                        location.href = "about.html"
+                        }
+                        document.querySelector('#resume').onclick = function() {
+                        location.href = "resume.html"
+                        }
+                        document.querySelector('#coursework').onclick = function() {
+                        location.href = "coursework.html"
+                        }
+                        document.querySelector('#projects').onclick = function() {
+                        location.href = "projects.html"
+                        }
+                    </script>
+                </div>
+                <div class="socialmedias">
+                    <a href="https://www.facebook.com/people/Michael-Kagan/100011225735058" target="_blank" class="links">
+                        <img src="pics_and_pdfs/fb.png" alt ="fb icon" class="si">
+                    </a>
+                    <a href="https://www.linkedin.com/in/michael-kagan-561691172" target="_blank" class="links">
+                        <img src="pics_and_pdfs/linkedin.png" alt="linkedin icon" class="si">
+                    </a>
+                    <a href="https://github.com/michael-kagan" target="_blank" class="links">
+                        <img src="pics_and_pdfs/github.png" alt="github icon" class="si">
+                    </a>
+                </div>
+            </div>
+            <footer>
+                <p>
+                    made by michael kagan, 2020
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

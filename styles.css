@@ -1,0 +1,122 @@
+/* index.html styling */
+
+.leftside
+{
+    width : 50%;
+    float : left;
+}
+.rightside
+{
+    width : 50%;
+    float : right;
+}
+.btns
+{
+    margin-left : 190px;
+    margin-top : 300px;
+}
+.btn
+{
+    margin-right : 50px;
+    width : 120px;
+    color : #39569D;
+}
+.socialmedias
+{
+    margin-top : 100px;
+    margin-left : 363px;
+}
+.si
+{
+    height : 5%;
+    width : 5%;
+}
+.links
+{
+    margin-left: 50px;
+}
+.links:hover
+{
+    text-decoration : none;
+}
+#hone
+{
+    margin-left : 100px;
+    margin-top : 50px;
+    font-weight : bold;
+    color : #39569D;
+    font-size: 70px;
+    position : relative;
+}
+.headshot
+{
+    margin-left : 100px;
+    max-width : 60%;
+    width : auto\9;
+    height : auto;
+    padding-top : 100px;
+    padding-left : 200px;
+}
+h2
+{
+    margin-left : 100px;
+    font-weight : lighter;
+    font-size : 30px;
+    color : #000000;
+}
+footer
+{
+    width : 100%;
+    text-align : center;
+    float : left;
+    font-weight : lighter;
+    margin-top: 204px;
+    font-size: 18px;
+}
+
+/* about.html styling*/
+
+#mainbody
+{
+    text-align : center;
+    margin-top : 220px;
+}
+#aboutpar
+{
+    font-size: 28px;
+    font-style: italic;
+    color : #39569D;
+    margin-top: 0px;
+}
+#abouthead
+{
+    font-style: italic;
+    color : #39569D;
+    font-size : 400%;
+    margin-bottom : 0px;
+    font-weight : 400;
+}
+html, body
+{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    width : 100%;
+    height : auto;
+    position : relative;
+}
+
+/* resume.html styling */
+
+#btndiv
+{
+    width : 25%;
+    float : left;
+    height : 900px;
+}
+#resdiv
+{
+    width : 75%;
+    float : right;
+    margin-top : 50px;
+}
